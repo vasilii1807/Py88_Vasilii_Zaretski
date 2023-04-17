@@ -13,7 +13,7 @@ def third_function():
     return "third_function"
 
 
-def high_func(func, n=10):
+def high_func(func, n = 10):
     print(*map(lambda x: f'{x + 1} ' + first_function(), range(n)), sep='\n')
     print()
 
