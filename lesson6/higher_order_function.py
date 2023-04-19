@@ -17,7 +17,6 @@ def high_func(func, n = 10):
     print(*map(lambda x: f'{x + 1} ' + first_function(), range(n)), sep='\n')
     print()
 
-
 high_func(first_function(), 3)
 high_func(second_function(), 5)
 high_func(third_function(), 10)
