@@ -1,0 +1,11 @@
+first_str = input()
+second_str = input()
+third_str = input()
+four_str = input()
+
+f = open('example.txt', 'w')
+f.write(f'{first_str}\n{second_str}\n')
+f.close()
+f = open('example.txt', 'a')
+f.write(f'{third_str}\n{four_str}\n')
+f.close()
